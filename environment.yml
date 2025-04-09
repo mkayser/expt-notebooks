@@ -1,0 +1,13 @@
+name: expt-notebooks
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - matplotlib
+  - ipykernel
+  - pip
+  - pip:
+      - librosa
